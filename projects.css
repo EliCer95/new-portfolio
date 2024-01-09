@@ -40,7 +40,7 @@ body {
   align-self: flex-end;
   padding-bottom: 30px;
   font-family: montserrat;
-  max-width: 220px;
+  max-width: 400px;
 }
 
 .name {
@@ -51,7 +51,7 @@ body {
 }
 
 .line {
-  height: 250px;
+  height: 300px;
   width: 5px;
   background-color: #333;
   border-radius: 10px;

@@ -7,6 +7,16 @@ body {
   justify-content: center;
 }
 
+.project-name {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.project-name:hover {
+  cursor: pointer;
+  text-decoration: line-through;
+}
 .container {
   position: relative;
   box-sizing: border-box;
@@ -66,8 +76,8 @@ footer {
   font-family: montserrat;
 }
 @media (max-width: 800px) {
-  a {
-    font-size: 60px;
+  .nav-item {
+    font-size: 50px;
   }
 
   p {
@@ -91,5 +101,9 @@ footer {
 
   .name {
     font-size: 16px;
+  }
+
+  .home {
+    font-size: 30px;
   }
 }
